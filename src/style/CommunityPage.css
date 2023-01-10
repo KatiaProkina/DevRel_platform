@@ -1,0 +1,146 @@
+:root{
+    font-family: 'Manrope', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 20px 18px;
+    background-color: #202225;
+}
+.header-logo{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-style: 'ExtraBold';
+    font-size: 20px;
+    line-height: 27px;
+}
+.img{
+    margin-right: 20px;
+}
+.header-user{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-style: 'Regular';
+    font-size: 20px;
+    line-height: 27px;
+}
+.header-user span{
+    margin-right: 30px;
+}
+.user-icon{
+    background-color: white;
+    border-radius: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+.items{
+    padding-top: 13px;
+    padding-left: 26px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15px;
+}
+.img{
+    margin-right: 40px;
+}
+.firm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 7px 8px 7px;
+    border-radius: 10px;
+    margin-right: 40px;
+    background-color: #202225;
+    color: white;
+    font-style: Medium;
+    font-size: 10px;
+    line-height: 14px;
+}
+.firm img{
+    margin-right: 10px;
+}
+.btn{
+    border: none;
+    background-color:  #36393F;
+    color: white;
+}
+.td{
+    border: solid 1px #ADADAD;
+    color: black;
+    background-color: white;
+    font-style: "Medium";
+    font-size: 10px;
+    line-height: 14px;
+    line-height: 100%;
+    padding: 10px 16px 10px 15px;
+    
+}
+.td-main{
+    background-color: #202225;
+    color: white;
+    font-style: "SemiBold";
+    padding: 10px 20px 10px 20px ;
+    border: none;
+    border-bottom: solid 1px #ADADAD;
+
+}
+.params{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-top: 21px;
+    padding-bottom: 18px;
+}
+
+.params-svg{
+    margin-right: 20px;
+}
+.search-svg{
+    margin-right: 8px;
+}
+.seacrh-input{
+    border: none;
+    background-color: #ADADAD;
+    color: white;
+}
+.seacrh-input::placeholder{
+    color: white;
+    font-style: "Medium";
+    font-size: 10px;
+    line-height: 14px;
+}
+.form{
+    background-color: #ADADAD;
+    border-radius: 10px;
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 29px;
+    margin-right: 20px;
+}
+.search-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.btn-params{
+    padding: 4px 10px  4px 10px ;
+    background-color: #202225;
+    color: white;
+    border-radius: 10px;
+    margin-right: 20px;
+    border: none;
+    font-style: "Medium";
+    font-size: 10px;
+    line-height: 14px;
+
+}
+.btn-params svg{
+    margin-left: 5px;
+}

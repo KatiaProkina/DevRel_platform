@@ -1,0 +1,113 @@
+:root{
+    font-family: 'Manrope', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 20px 18px;
+    background-color: #202225;
+}
+.header-logo{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-style: 'ExtraBold';
+    font-size: 20px;
+    line-height: 27px;
+}
+.img{
+    margin-right: 20px;
+}
+.header-user{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-style: 'Regular';
+    font-size: 20px;
+    line-height: 27px;
+}
+.header-user span{
+    margin-right: 30px;
+}
+.user-icon{
+    background-color: white;
+    border-radius: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+.main-content{
+    padding-left: 100px;
+    padding-top: 40px;
+   
+    
+}
+.h1{
+    color: white;
+    font-style: 'SemiBold';
+    font-size: 32px;
+    line-height: 44px;
+    line-height: 100%;
+    margin: 0px;
+
+}
+.communities{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    /* flex-flow: row wrap; */
+    /* justify-content: space-around; */
+}
+.menu-btn {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	z-index:2;
+	overflow: hidden;
+    margin-right: 29.17px;
+}
+.menu-btn span {
+	width: 30px;
+	height: 2px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	transition: all 0.5s;
+}
+.menu-btn span:nth-of-type(2) {
+	top: calc(50% - 5px);
+}
+.menu-btn span:nth-of-type(3) {
+	top: calc(50% + 5px);
+}
+.community-top{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.community-btn{
+    display: flex;
+    flex-direction: row;
+}
+.community{
+    background-color: #202225;
+    display: flex;
+    margin-right: 30px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 25px;
+    color: white;
+    font-style: 'Medium';
+    font-size: 26px;
+    line-height: 36px;
+    line-height: 100%;
+}
+.community img{
+    margin-right: 25px;
+}
